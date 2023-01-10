@@ -1,0 +1,18 @@
+[
+  {
+    "_id": 1,
+    "id_usuario": 1,
+    "titulo": "Blusa",
+    "descricao": "Hydrogen is a chemical element.",
+    "foto": "www.google.com",
+    "criacao": "new Date('2023-01-01T01:01:01')"
+  },
+  {
+    "_id": 2,
+    "id_usuario": 1,
+    "titulo": "Biscuit ",
+    "descricao": "Hydrogen is a chemical element.",
+    "foto": "www.google.com/test",
+    "criacao": "new Date('2023-01-01T01:01:01')"
+  }
+]
