@@ -1,0 +1,74 @@
+
+<mat-table [dataSource]="servicos"  class="mat-elevation-z8">
+
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+  <!-- Position Column
+  <ng-container matColumnDef="position">
+    <th mat-header-cell *matHeaderCellDef> No. </th>
+    <td mat-cell *matCellDef="let servico"> {{servico._id}} </td>
+  </ng-container>-->
+
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="id">
+    <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
+    <mat-cell *matCellDef="let servico"> {{servico.id}} </mat-cell>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="titulo">
+    <mat-header-cell *matHeaderCellDef> Titulo </mat-header-cell>
+    <mat-cell *matCellDef="let servico"> {{servico.titulo}} </mat-cell>
+  </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="categoria">
+      <mat-header-cell *matHeaderCellDef> Categoria </mat-header-cell>
+      <mat-cell *matCellDef="let servico"> {{servico.categoria}} </mat-cell>
+    </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="descricao">
+    <mat-header-cell *matHeaderCellDef> Descricao </mat-header-cell>
+    <mat-cell *matCellDef="let servico"> {{servico.descricao}} </mat-cell>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="foto">
+    <mat-header-cell *matHeaderCellDef> Foto </mat-header-cell>
+    <mat-cell *matCellDef="let servico"> {{servico.foto}} </mat-cell>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="criacao">
+    <mat-header-cell *matHeaderCellDef> Criacao </mat-header-cell>
+    <mat-cell *matCellDef="let servico"> {{servico.criacao}} </mat-cell>
+  </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="acoes">
+      <mat-header-cell *matHeaderCellDef class="action-column-header">
+
+          <button mat-mini-fab color="accent" aria-label="Example icon button with a plus one icon">
+            <mat-icon (click)="adicionarServico()">add</mat-icon>
+          </button>
+      </mat-header-cell>
+
+      <mat-cell *matCellDef="let servico">
+            <button mat-icon-button color="primary"  class="action-column" aria-label="Editar">
+              <mat-icon (click)="console()">edit</mat-icon>
+            </button>
+            <button mat-icon-button color="warn" class="action-column" aria-label="Excluir">
+              <mat-icon>delete</mat-icon>
+            </button>
+      </mat-cell>
+
+
+    </ng-container>
+
+
+  <mat-header-row mat-header-row *matHeaderRowDef="colunasExibidas"></mat-header-row>
+  <mat-row mat-row *matRowDef="let row; columns: colunasExibidas;"></mat-row>
+</mat-table>

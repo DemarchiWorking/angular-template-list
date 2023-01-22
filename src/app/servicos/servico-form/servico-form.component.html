@@ -1,0 +1,42 @@
+
+<mat-card>
+
+  <mat-toolbar color="primary">Detalhes do Serviço</mat-toolbar>
+
+  <mat-card-content>
+  <div style="padding: 25px; align-items: center; justify-content: center; text-align: center;">
+    <form [formGroup]="formulario" class="min-width">
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Titulo" formControlName="titulo">
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+          <mat-label> Categoria </mat-label>
+          <mat-select formControlName="categoria">
+            <mat-option value="artista">Artista</mat-option>
+            <mat-option value="audiovisual">Audio Visual</mat-option>
+            <mat-option value="tecnologia">Tecnologia</mat-option>
+            <mat-option value="teatro">Teatro</mat-option>
+            <mat-option value="musico">Musico</mat-option>
+          </mat-select>
+          <input matInput formControlName="descricao">
+        </mat-form-field>
+
+
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Descricao" formControlName="descricao">
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Foto" formControlName="foto">
+        </mat-form-field>
+    </form>
+  </div>
+
+</mat-card-content>
+
+<mat-card-actions>
+  <button mat-raised-button color="primary" (click)="submeterServico()"> Salvar </button>
+  <button mat-raised-button (click)="cancelarServico()"> Cancelar </button>
+</mat-card-actions>
+</mat-card>
