@@ -1,8 +1,10 @@
-import { ServicosService } from './../services/servicos.service';
+import { ActivatedRoute } from '@angular/router';
+import { ServicosService } from '../../services/servicos.service';
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { FormBuilder, FormControl, NonNullableFormBuilder } from '@angular/forms';
+import { NonNullableFormBuilder } from '@angular/forms';
+import { Servicos } from '../../model/servicos';
 
 @Component({
   selector: 'app-servico-form',
@@ -12,6 +14,7 @@ import { FormBuilder, FormControl, NonNullableFormBuilder } from '@angular/forms
 export class ServicoFormComponent implements OnInit {
 
   formulario = this.formBuilder.group({
+    _id: [0],
     titulo: [''],
     categoria: [''],
     descricao: [''],
@@ -24,13 +27,22 @@ export class ServicoFormComponent implements OnInit {
   constructor(private formBuilder: NonNullableFormBuilder, // NonNullableFormBuilder
     private servico: ServicosService,
     private barraAlerta : MatSnackBar,
-    private location: Location) {
+    private location: Location,
+    private route: ActivatedRoute) {
 
 
    }
 
   ngOnInit(): void {
+    const servico: Servicos = this.route.snapshot.data['servico'];
+    this.formulario.setValue({
+      _id: parseInt(servico._id.toString()),
+      titulo: servico.titulo.toString(),
+      categoria: servico.categoria.toString(),
+      descricao: servico.descricao.toString(),
+      foto: servico.foto.toString()
 
+    });
   }
 
   submeterServico(){
@@ -50,4 +62,3 @@ export class ServicoFormComponent implements OnInit {
     this.barraAlerta.open("Erro ao salvar Serviço. "+ error, '',{ duration: 4000});
   }
 }
-//'id','titulo','descricao','foto','criacao','acoes'

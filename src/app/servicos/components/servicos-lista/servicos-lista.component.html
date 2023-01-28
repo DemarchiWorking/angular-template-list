@@ -12,9 +12,9 @@
 
 
   <!-- Name Column -->
-  <ng-container matColumnDef="id">
+  <ng-container matColumnDef="_id">
     <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
-    <mat-cell *matCellDef="let servico"> {{servico.id}} </mat-cell>
+    <mat-cell *matCellDef="let servico"> {{servico._id}} </mat-cell>
   </ng-container>
 
   <!-- Name Column -->
@@ -58,10 +58,10 @@
 
       <mat-cell *matCellDef="let servico">
             <button mat-icon-button color="primary"  class="action-column" aria-label="Editar">
-              <mat-icon (click)="console()">edit</mat-icon>
+              <mat-icon (click)="editarServico(servico)">edit</mat-icon>
             </button>
             <button mat-icon-button color="warn" class="action-column" aria-label="Excluir">
-              <mat-icon>delete</mat-icon>
+              <mat-icon (click)="excluirServico(servico)">delete</mat-icon>
             </button>
       </mat-cell>
 

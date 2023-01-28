@@ -11,7 +11,9 @@
     <app-servicos-lista
       *ngIf="servicos$ | async as servicos; else loading"
       [servicos]="servicos"
-
+      (adicionar)="adicionarServico()"
+      (editar)="editarServico($event)"
+      (excluir)="excluirServico($event)"
     ></app-servicos-lista>
   </div>
 

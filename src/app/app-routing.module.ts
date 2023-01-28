@@ -1,4 +1,4 @@
-import { ServicosComponent } from './servicos/servicos/servicos.component';
+import { ServicosComponent } from './servicos/containers/servicos/servicos.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
