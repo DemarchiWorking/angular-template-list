@@ -3,13 +3,31 @@
 @import '@angular/material/theming';
 @include mat-core();
 
+// theme light
 $custom-app-primary: mat-palette($mat-blue-grey, 700);
 $custom-app-secundary: mat-palette($mat-indigo, A200, A400, 700);
 $custom-app-warn: mat-palette($mat-red);
 
 $custom-theme: mat-light-theme($custom-app-primary, $custom-app-secundary, $custom-app-warn) ;
 
-@include angular-material-theme($custom-theme);
+
+// theme dark
+$custom-theme-dark-primary: mat-palette($mat-indigo);
+$custom-theme-dark-accent: mat-palette($mat-pink, A200, A100,A400);
+$custom-app-dark-warn: mat-palette($mat-red);
+
+$custom-theme-dark: mat-dark-theme($custom-theme-dark-primary, $custom-theme-dark-accent, $custom-app-dark-warn);
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.tema-luz {
+  @include angular-material-theme($custom-theme);
+}
+
+
+.tema-escuro{
+  @include angular-material-theme($custom-theme-dark);
+}
+
+

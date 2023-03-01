@@ -7,10 +7,13 @@ import { Servicos } from '../model/servicos';
 })
 export class ServicosService {
 
-  private readonly API = '/api/servicos';
+  private readonly API = 'api/servicos';
   constructor(private httpClient: HttpClient) {  }
 
   listar() {
+    console.log(`${this.httpClient.get + this.API}/`)
+
+
     return this.httpClient.get<Servicos[]>(this.API)
     .pipe(
       first(),

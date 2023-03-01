@@ -1,0 +1,27 @@
+<mat-card>
+  <mat-toolbar color="primary">
+
+</mat-toolbar>
+
+  <div class="mat-elevation-z8 column-flex">
+    <app-conta-lista
+      *ngIf="conta$ | async as conta; else loading"
+      [conta]="conta"
+      (adicionar)="adicionarConta()"
+      (editar)="editarConta($event)"
+      (excluir)="excluirConta($event)"
+    ></app-conta-lista>
+  </div>
+
+<div>
+
+
+</div>
+
+<ng-template #loading>
+  <div class="carregando-spinner">
+    <mat-spinner></mat-spinner>
+  </div>
+</ng-template>
+
+</mat-card>

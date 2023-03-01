@@ -1,0 +1,79 @@
+
+<mat-table [dataSource]="conta"  class="mat-elevation-z8">
+
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+  <!-- Position Column
+  <ng-container matColumnDef="position">
+    <th mat-header-cell *matHeaderCellDef> No. </th>
+    <td mat-cell *matCellDef="let servico"> {{servico._id}} </td>
+  </ng-container>-->
+
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="_id">
+    <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
+    <mat-cell *matCellDef="let conta"> {{conta._id}} </mat-cell>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="nome">
+    <mat-header-cell *matHeaderCellDef> Nome </mat-header-cell>
+    <mat-cell *matCellDef="let conta"> {{conta.nome}} </mat-cell>
+  </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="email">
+      <mat-header-cell *matHeaderCellDef> Email </mat-header-cell>
+      <mat-cell *matCellDef="let conta"> {{conta.email}} </mat-cell>
+    </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="password">
+    <mat-header-cell *matHeaderCellDef> Senha </mat-header-cell>
+    <mat-cell *matCellDef="let conta"> {{conta.password }} </mat-cell>
+  </ng-container>
+
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="confirmPassword">
+    <mat-header-cell *matHeaderCellDef> Confirmar Senha </mat-header-cell>
+    <mat-cell *matCellDef="let conta"> {{conta.confirmPassword }} </mat-cell>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="foto">
+    <mat-header-cell *matHeaderCellDef> Foto </mat-header-cell>
+    <mat-cell *matCellDef="let conta"> {{conta.foto}} </mat-cell>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="criacao">
+    <mat-header-cell *matHeaderCellDef> Criacao </mat-header-cell>
+    <mat-cell *matCellDef="let conta"> {{conta.criacao}} </mat-cell>
+  </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="acoes">
+      <mat-header-cell *matHeaderCellDef class="action-column-header">
+
+          <button mat-mini-fab color="accent" aria-label="Example icon button with a plus one icon">
+            <mat-icon (click)="adicionarConta()">add</mat-icon>
+          </button>
+      </mat-header-cell>
+
+      <mat-cell *matCellDef="let conta">
+            <button mat-icon-button color="primary"  class="action-column" aria-label="Editar">
+              <mat-icon (click)="editarConta(conta)">edit</mat-icon>
+            </button>
+            <button mat-icon-button color="warn" class="action-column" aria-label="Excluir">
+              <mat-icon (click)="excluirConta(conta)">delete</mat-icon>
+            </button>
+      </mat-cell>
+    </ng-container>
+
+
+  <mat-header-row mat-header-row *matHeaderRowDef="colunasExibidas"></mat-header-row>
+  <mat-row mat-row *matRowDef="let row; columns: colunasExibidas;"></mat-row>
+</mat-table>
