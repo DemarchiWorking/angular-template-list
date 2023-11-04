@@ -16,12 +16,17 @@ import { Conta } from '../../model/Conta';
 export class ContaCadastroComponent implements OnInit {
 
   formulario = this.formBuilder.group({
-    _id: [0],
+    _id: [],
     nome: [''],
     email: [''],
-    password: [''],
-    confirmPassword: [''],
+    titulo: [''],
+    senha: [''],
     foto: [''],
+    telefone: [''],
+    servicos: [[]],
+    produtos: [[]],
+    AmizadesRecebidas: [[]],
+     AmizadesEnviadas: [[]]
     //foto: new FormControl<string || null>('', { nonNullable: true }),
   });
 

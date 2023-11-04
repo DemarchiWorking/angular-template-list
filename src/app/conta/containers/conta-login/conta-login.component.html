@@ -1,0 +1,49 @@
+<!-- https://dribbble.com/shots/15392711-Dashboard-Login-Sign-Up/-->
+
+<div class="login-container">
+  <div class="login-form" style="padding-bottom: 70px">
+
+
+    <form [formGroup]="formulario" class="min-width">
+    <div class="login-form-inner">
+      <div class="logo"><svg height="512" viewBox="0 0 192 192" width="512" xmlns="http://www.w3.org/2000/svg">
+          <path d="m155.109 74.028a4 4 0 0 0 -3.48-2.028h-52.4l8.785-67.123a4.023 4.023 0 0 0 -7.373-2.614l-63.724 111.642a4 4 0 0 0 3.407 6.095h51.617l-6.962 67.224a4.024 4.024 0 0 0 7.411 2.461l62.671-111.63a4 4 0 0 0 .048-4.027z" />
+        </svg></div>
+      <h1>Login</h1>
+      <p class="body-text" style="padding-bottom: 40px;">  Faça um cadastro para ter acesso a sua Identidade Cultural.</p>
+
+
+
+      <div class="login-form-group">
+
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Email" formControlName="email">
+        </mat-form-field>
+
+      </div>
+      <div class="login-form-group">
+
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Senha" type="password" formControlName="senha">
+        </mat-form-field>
+      </div>
+
+      <div class="login-form-group single-row">
+
+        <a href="/conta/novo"> Cadastrar  </a>
+      </div>
+
+      <button mat-raised-button color="primary" (click)="logar()" class="rounded-button">Login</button>
+
+        </div>
+    </form>
+  </div>
+  <div class="onboarding">
+    <div class="swiper-container" style="width: 100%; height: auto;">
+      <img src="https://cdn-icons-png.flaticon.com/512/1804/1804922.png">
+
+    </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>

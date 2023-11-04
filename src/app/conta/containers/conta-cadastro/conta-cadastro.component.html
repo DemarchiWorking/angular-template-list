@@ -1,47 +1,70 @@
+
 <mat-card>
 
-  <mat-toolbar color="primary">Detalhes do Serviço</mat-toolbar>
+  <mat-toolbar color="primary">Cadastrar Usuário</mat-toolbar>
 
   <mat-card-content>
-  <div style="padding: 25px; align-items: center; justify-content: center; text-align: center;">
-    <form [formGroup]="formulario" class="min-width">
+
+<div class="login-container">
+  <div class="login-form" style="padding-bottom: 70px">
+
+    <div style="padding: 25px; align-items: center; justify-content: center; text-align: center;">
+      <form [formGroup]="formulario">
+
+    <div class="login-form-inner">
+
+
+      <div class="login-form-group" style="he: 100%;">
         <mat-form-field class="full-width">
           <input matInput placeholder="Nome" formControlName="nome">
         </mat-form-field>
+
+      </div>
+      <div class="login-form-group">
 
         <mat-form-field class="full-width">
           <input matInput placeholder="Email" formControlName="email">
         </mat-form-field>
 
-        <mat-form-field class="full-width">
-          <input matInput placeholder="Senha" formControlName="password">
-        </mat-form-field>
+      </div>
+      <div class="login-form-group">
 
         <mat-form-field class="full-width">
-          <input matInput placeholder="Repetir senha" formControlName="confirmPassword">
+          <input matInput placeholder="Senha" formControlName="senha">
         </mat-form-field>
 
+      </div>
+      <!--
+      <div class="login-form-group">
 
-        <!--
         <mat-form-field class="full-width">
-          <mat-label> Categoria </mat-label>
-          <mat-select formControlName="categoria">
-            <mat-option value="artista">Artista</mat-option>
-            <mat-option value="audiovisual">Audio Visual</mat-option>
-            <mat-option value="tecnologia">Tecnologia</mat-option>
-            <mat-option value="teatro">Teatro</mat-option>
-            <mat-option value="musico">Musico</mat-option>
-          </mat-select>
+          <input matInput placeholder="Repetir senha" formControlName="confirmSenha">
         </mat-form-field>
-      -->
 
+      </div>-->
+
+      <div class="login-form-group">
+
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Telefone" formControlName="telefone">
+        </mat-form-field>
+
+      </div>
+      <div class="login-form-group single-row">
+
+
+      </div>
+
+      <button mat-raised-button color="primary" (click)="submeterConta()"> Salvar </button>
+      <button mat-raised-button (click)="cancelarConta()"> Cancelar </button>
+        </div>
     </form>
   </div>
-
+  </div>
+</div>
 </mat-card-content>
 
 <mat-card-actions>
-  <button mat-raised-button color="primary" (click)="submeterConta()"> Salvar </button>
-  <button mat-raised-button (click)="cancelarConta()"> Cancelar </button>
+
 </mat-card-actions>
 </mat-card>

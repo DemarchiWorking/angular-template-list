@@ -18,7 +18,7 @@ export class ContaComponent implements OnInit {
   [x: string]: any;
 
   conta$: Observable<Conta[]> | null = null;
-  readonly colunasExibidas = ['_id','nome','email','password', 'confirmPassword','foto','criacao','acoes'];
+  readonly colunasExibidas = ['_id','nome','email','senha', 'foto','criacao','acoes'];
 
   //servicosService: ServicosService;
 

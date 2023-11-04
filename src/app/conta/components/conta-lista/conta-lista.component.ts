@@ -16,7 +16,7 @@ export class ContaListaComponent implements OnInit {
   @Output() editar = new EventEmitter(false);
   @Output() excluir = new EventEmitter(false);
 
-  colunasExibidas = ['_id','nome','email','password', 'confirmPassword', 'foto','criacao','acoes'];
+  colunasExibidas = ['_id','nome','email','senha', 'foto','criacao','acoes'];
 
 
   constructor() { }

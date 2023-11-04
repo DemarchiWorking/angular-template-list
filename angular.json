@@ -71,6 +71,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "ssl": true,
           "configurations": {
             "production": {
               "browserTarget": "IdentidadeCultural:build:production"
@@ -108,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "cf70b242-6075-4e00-8a23-b0685cf6af5e"
   }
 }

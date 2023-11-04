@@ -18,9 +18,8 @@ export class ServicosComponent implements OnInit {
   [x: string]: any;
 
   servicos$: Observable<Servicos[]> | null = null;
-  readonly colunasExibidas = ['_id','titulo','categoria','descricao','foto','criacao','acoes'];
+  readonly colunasExibidas = ['id','titulo','categoria','descricao','foto','criacao','acoes'];
 
-  //servicosService: ServicosService;
 
   constructor(
     private servicosService: ServicosService,
@@ -31,13 +30,6 @@ export class ServicosComponent implements OnInit {
     ) {
     this.atualizarPagina();
 
-  }
-
-
-  deuError(erroMsg: string) {
-    this.dialog.open(ErroComponent, {
-      data: ""
-    });
   }
 
   atualizarPagina(){
@@ -52,7 +44,57 @@ export class ServicosComponent implements OnInit {
 
   ngOnInit(): void {
 
+          /*
+        const observer = {
+          next: valor => console.log("next", valor),
+          error: erro => console.log("Erro"),
+          complete: () => console.log("FIM")
+        }
+        const obs = this.oservable("Eduardo","test");
+        obs.subscribe(observer); */
   }
+
+
+  deuError(erroMsg: string) {
+    this.dialog.open(ErroComponent, {
+      data: ""
+    });
+  }
+  oservable(titulo: string, categoria: string) : Observable<Servicos>{
+        if(titulo != ""){
+              return new Observable(subscriber => {
+                let servico : Servicos = {
+                  id : "1",
+                  titulo: titulo,
+                  usuarioId : "",
+                  categoria: categoria,
+                  criacao: new Date(),
+                  descricao: "",
+                  foto: "",
+                };
+                setTimeout(() => {
+                  subscriber.next(servico)
+                }, 1000);
+              })
+        }
+        else{
+          return new Observable(subscriber => {
+            let servico : Servicos = {
+              id : "1",
+              titulo: titulo,
+              usuarioId : "",
+              categoria: categoria,
+              criacao: new Date(),
+              descricao: "",
+              foto: "",
+            };
+            setTimeout(() => {
+              subscriber.next(servico)
+            }, 1000);
+          })
+        }
+    }
+
 
   adicionarServico(){
     this.router.navigate(['novo'], {relativeTo: this.route});
@@ -61,10 +103,14 @@ export class ServicosComponent implements OnInit {
   }
 
   editarServico(servico: Servicos){
-    this.router.navigate(['editar', servico._id] , {relativeTo: this.route});
+    this.router.navigate(['editar', servico.id] , {relativeTo: this.route});
 
   }
-
+  /*
+  submeterServico(){
+    this.servico.salvar(this.formulario.value)
+    .subscribe(resultado => this.sucessoSubmeter(), error => this.falhouSubmeter(error))
+  }*/
   excluirServico(servico: Servicos){
 
       const dialogRef = this.dialog.open(DialogoConfirmacaoComponent, {
@@ -73,7 +119,7 @@ export class ServicosComponent implements OnInit {
 
       dialogRef.afterClosed().subscribe((resultado : boolean) => {
         if(resultado){
-          this.servicosService.excluir(servico._id.toString()).subscribe(
+          this.servicosService.excluir(servico.id.toString()).subscribe(
             ()=>{
 
               this.atualizarPagina();

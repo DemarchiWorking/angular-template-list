@@ -14,7 +14,7 @@ import { Servicos } from '../../model/servicos';
 export class ServicoFormComponent implements OnInit {
 
   formulario = this.formBuilder.group({
-    _id: [0],
+    id: [''],
     titulo: [''],
     categoria: [''],
     descricao: [''],
@@ -35,13 +35,15 @@ export class ServicoFormComponent implements OnInit {
 
   ngOnInit(): void {
     const servico: Servicos = this.route.snapshot.data['servico'];
+    console.log(servico.titulo);
+    console.log(servico.id);
+
     this.formulario.setValue({
-      _id: parseInt(servico._id.toString()),
+      id: servico.id.toString(),
       titulo: servico.titulo.toString(),
       categoria: servico.categoria.toString(),
       descricao: servico.descricao.toString(),
       foto: servico.foto.toString()
-
     });
   }
 

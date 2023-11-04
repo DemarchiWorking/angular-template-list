@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span>Amigos</span>
+        <span class="example-spacer"></span>
+  
+      </mat-toolbar-row>
+  </mat-toolbar>
+  
+    <div class="mat-elevation-z8 column-flex">
+        
+      <app-conta-seguidores
+        *ngIf="amigos$ | async as amigo; else loading"
+        [amigos]="amigo"
+      ></app-conta-seguidores>
+    </div>
+  
+  <div>
+  
+  
+  </div>
+  
+  <ng-template #loading>
+    <div class="carregando-spinner">
+      <mat-spinner></mat-spinner>
+    </div>
+  </ng-template>
+  
+  </mat-card>
+  

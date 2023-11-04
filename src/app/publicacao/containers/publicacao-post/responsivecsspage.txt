@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>
+      Responsive Layout
+    </title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="section menu">APP MENU</header>
+      <section class="section hero">HERO</section>
+      <section class="section feature-1">FEATURE 1</section>
+      <section class="section feature-2">FEATURE 2</section>
+      <section class="section feature-3">FEATURE 3</section>
+      <section class="section sign-up">SIGN UP CTA</section>
+      <section class="section content">CONTENT</section>
+      <footer class="section footer">FOOTER</footer>
+    </main>
+  </body>
+</html>
+
+
+/* Desktop Styles */
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.section {
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 300px;
+}
+
+.menu {
+  background-color: #5995DA;
+  line-height: 80px
+}
+
+.hero {
+  line-height: 400px;
+  background-color: #B2D6FF;
+}
+
+.feature-1,
+.feature-2,
+.feature-3 {
+  width: 33.3%;
+  display: inline-block;
+}
+
+.sign-up {
+  background-color: #D6E9FE;
+  line-height: 100px;
+}
+
+.content {
+  background-color: #EAEDF0;
+  line-height: 600px;
+}
+
+.feature-1 {
+  background-color: #F5CF8E;
+}
+
+.feature-2 {
+  background-color: #F09A9D;
+}
+
+.feature-3 {
+  background-color: #C8C6FA;
+}
+
+.footer {
+  color: #f4f4f4;
+  background-color: #333333;
+}
+
+/* Tablet Styles */
+@media only screen and (max-width: 960px) {
+  .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 50%;
+  }
+
+  .sign-up {
+    display: inline-block;
+    line-height: 300px;
+    order: 1;
+  }
+
+  .footer,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    order: 2;
+  }
+}

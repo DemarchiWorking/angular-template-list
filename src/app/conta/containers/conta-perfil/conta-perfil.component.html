@@ -1,0 +1,232 @@
+<body>
+<section class="container">
+
+  <div class="item">
+
+    <div class="Container__body">
+      <div class="Body__gamePoints">
+
+    <p class="GamePoints__topCabecalho" style="font-size: 20px;">Sobre mim</p>
+    <p class="GamePoints__description" style="color: #fff;">
+    É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.
+    </p>
+    </div>
+    </div>
+
+  </div>
+  <div class="item">
+
+    <div class="item">
+
+      <div class="Container__body">
+        <div class="Body__gamePoints">
+
+      <div class="GamePoints__topCabecalho">
+        <div style="display: block;">
+
+          <style>
+            .flex-container {
+                display: flex;
+                height:100%;
+                width: 100%;
+                flex-flow: column wrap;
+            }
+
+            .flex-container > div {
+                width: 100px;
+                margin: 10px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 20px;
+            }
+        </style>
+          <div class="" style="display: flex; justify-content: center; padding-top: 10px;" >
+              <button  mat-stroked-button  style="width: 40%;  height: 40%; color: white;">
+                <p> </p>
+                <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="psychology" style="font-size:28px;transform:scale(2.8); color: white;"></mat-icon> 
+                <p>Serviços</p>
+              </button>
+
+          <button mat-stroked-button  style="width: 40%;  height:40%;  color: white;">
+              <p> </p>
+              <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="store" style="font-size:28px;transform:scale(2.8); color: white;"></mat-icon> 
+              <p> Produtos </p>
+            </button> 
+          </div>
+
+          <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+          <div class="estrelas">
+
+          </div>
+          <div style="display: flex; justify-content: center; padding-top: 40px;">
+            <table>
+              <tr>
+                <!--<td><input type="radio" id="cm_star-1" name="fb" value="1"/><p></p></td>
+                <td><input type="radio" id="cm_star-2" name="fb" value="2"/><p></p></td>
+                <td><input type="radio" id="cm_star-3" name="fb" value="3"/><p></p></td> 
+                <td><input type="radio" id="cm_star-4" name="fb" value="4"/><p></p></td> 
+                <td><input type="radio" id="cm_star-5" name="fb" value="5"/><p></p></td> -->
+              </tr>
+              <tr>
+                <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="star" style="font-size:15px;transform:scale(1.8); color: white;"></mat-icon> </td>
+                <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="star" style="font-size:15px;transform:scale(1.8); color: white;"></mat-icon> </td>
+                <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="star" style="font-size:15px;transform:scale(1.8); color: white;"></mat-icon> </td>
+                <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="star" style="font-size:15px;transform:scale(1.8); color: white;"></mat-icon> </td>
+                <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="star" style="font-size:15px;transform:scale(1.8); color: white;"></mat-icon> </td>
+              </tr>
+            </table>
+          </div>
+
+
+
+        </div></div>
+
+      </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="item" style="width: 100%; height: 100%;">
+    <div>
+
+    <div class="Container__body" >
+      <div class="Body__gamePoints">
+      <p class="GamePoints__topCabecalho" style="font-size: 20px;"> Contato </p>
+
+      <div style="display: inline-block;">
+       <div style="display: inline-block;">
+        <div>
+          <button mat-stroked-button color="accent"><a target="_blank" href="https://www.linkedin.com/in/demarchi1/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" style="width: 30px; height: 30px; padding: 20px; align-items: center;"></a></button>
+        </div>
+        </div>
+      <div style="display:  inline-block;">
+        <div>
+          <button mat-stroked-button color="accent"><a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=5500000000000"><img src="https://cdn-icons-png.flaticon.com/512/134/134937.png" style="width: 30px; height: 30px; padding: 20px; align-items: center;"></a></button> </div>
+        </div>
+        <div>
+          <table style="margin: 0 auto;font-size: 12px; width: 200px;">
+            <tr>
+              <th> <p class="GamePoints__description" style="color: #fff;"> Telefone</p></th>
+              <td> 
+                {{ telefone }}
+               </td>
+            </tr>
+            <tr>
+              <th> <p class="GamePoints__description" style="color: #fff;"> Email</p></th>
+              <td> 
+                {{email}}</td>
+            </tr>
+            
+
+
+          </table>
+        </div>
+
+    </div>
+    </div>
+        </div>
+
+    </div>
+
+
+
+
+  </div>
+  <div class="sidenav">
+    <div style="justify-content: center; align-items: center; text-align: center;">
+      <div class="card p-4" style="padding-top: 60px;"> <div class=" image d-flex flex-column justify-content-center align-items-center" >
+          <button class="btnPerfil btn-secondary"> <img src="https://i.imgur.com/wvxPV9S.png" height="100" width="100" /></button>
+          <span class="name mt-3" ></span>
+
+
+          <h2 class="Cabecalho__nome" style=""> {{ nome }} </h2>
+          <br>
+
+
+          <div class="Container__body">
+            <div class="Body__gamePoints">
+
+              <div style="text-align: center; align-items: center; justify-content: center;">
+                <div class="GamePoints__wrapperTop">
+                  <!--<p class="GamePoints__topStories">Habilidade </p> -->
+                  <p class="GamePoints__topStories" style="width: 80%;"> {{ titulo }}</p>
+                  <button class="GamePoints__adiciona GamePoints__adiciona--open-model">
+                    +
+                  </button>
+                </div>
+              </div>
+
+              <!--
+              <div style="text-align: center; align-items: center; justify-content: center;">
+                <div class="GamePoints__wrapperTop">
+                  <p class="GamePoints__topStories">Equipe</p>
+                  <p class="GamePoints__topStories"> Administrador </p>
+                  <button class="GamePoints__adiciona GamePoints__adiciona--open-model">
+                    +
+                  </button>
+                </div>
+              </div>
+                -->
+
+
+        <!--
+        <div style="display: block;" class="container">
+          <div style="display: block;">
+            <mat-form-field class="full-width">
+              <input matInput value="Rosemary Silveira" formControlName="email" >
+            </mat-form-field>
+        </div>
+        <div style="display: block;">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="email: ros.sil@bol.com.br" formControlName="email">
+          </mat-form-field>
+        </div>
+      </div>-->
+          <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+
+             </div>
+           </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-5" style="font-size: 13px;">
+                        <div class="col border-right text-center">
+                            <h2 class="font-light"></h2>
+                            <button style="width: 90%;" mat-stroked-button ><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="groups" style="font-size:28px;transform:scale(1.2); color: white;"></mat-icon>  <div style="display: inline-block; color: white;padding-left: 10px;"> Amizades </div> </button>
+                            <h4 class="text-uppercase">
+                               </h4>
+                        </div>
+
+                        <div class="col border-right text-center">
+                          <h2 class="font-light"></h2>
+                          <button style="width: 90%;" mat-stroked-button ><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="feed" style="font-size:28px;transform:scale(1.2); color: white;"></mat-icon>  <div style="display: inline-block; color: white;padding-left: 10px;"> Publicacõs </div> </button>
+                          <h4 class="text-uppercase">
+                             </h4>
+                      </div>
+
+                      <div class="col border-right text-center">
+                        <h2 class="font-light"></h2>
+                        <button style="width: 90%;" mat-stroked-button ><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="psychology" style="font-size:28px;transform:scale(1.2); color: white;"></mat-icon>  <div style="display: inline-block; color: white;padding-left: 10px;"> Experiencias </div> </button>
+                        <h4 class="text-uppercase">
+                           </h4>
+                      </div>
+
+                          </div>
+                    </div>
+</div>
+
+</section>
+</body>
+
+<style>
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  </style>

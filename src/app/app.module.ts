@@ -17,6 +17,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { AppMaterialModule } from './shared/app-material/app-material.module';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { AppMaterialModule } from './shared/app-material/app-material.module';
     MatSelectModule,
     AppMaterialModule,
     MatButtonModule,
+    MatSlideToggleModule,
+    MatButtonToggleModule,
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

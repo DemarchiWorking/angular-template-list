@@ -17,7 +17,7 @@ export class ServicosListaComponent implements OnInit {
   @Output() editar = new EventEmitter(false);
   @Output() excluir = new EventEmitter(false);
 
-  colunasExibidas = ['_id','titulo','categoria','descricao','foto','criacao','acoes'];
+  colunasExibidas = ['id','titulo','categoria','descricao','foto','criacao','acoes'];
 
 
   constructor() { }
@@ -31,8 +31,9 @@ export class ServicosListaComponent implements OnInit {
 
 
   editarServico(servico : Servicos){
+    console.log(servico);
     this.editar.emit(servico);
-
+    //
   }
 
   excluirServico(servico: Servicos){

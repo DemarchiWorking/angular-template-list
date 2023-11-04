@@ -1,0 +1,601 @@
+
+<!--
+<body>
+  <div class="container" >
+    <div style="align-items: center; text-align: center; width: 100%; height: 100%; background-color: aqua; position: relative; display: block;">
+    <div class="bloco">
+
+     <section class="container">
+
+      <div style="top:300px; left: 300px;">
+      <div class="content">
+        <header>
+          <figure>
+          <img class='im' src="https://images.unsplash.com/photo-1663255278049-cb6021dce60b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjU0MDk1Nzc&ixlib=rb-1.2.1&q=80" alt="none">
+            </figure>
+          <h1>Yane Zakisimoa</h1>
+          <p>Designer</p>
+          <p><svg viewBox="0 0 384 512" width="10" title="map-marker-alt">
+      <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z" />
+    </svg> ABC, Oryo</p>
+        </header>
+        <div class="bootom">
+          <div class="card">
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg></div>
+          </div>
+          <div class="foo">
+            <a href="#">Message</a>
+            <a href="#">E-mail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    </section>
+
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="bloco">
+
+     <section class="container" style="width: 100%; height: 100%; display: block;">
+      <div class="content">
+        <header>
+          <h1>Habilidades</h1>
+          <p> - Audiovisual </p>
+          <p> - Producao de Música </p>
+          <p> - Fotografo </p>
+          <p> - Direção Criativa </p>
+
+          <p><svg viewBox="0 0 384 512" width="10" title="map-marker-alt">
+      <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z" />
+    </svg> ABC, Oryo</p>
+        </header>
+        <div class="bootom">
+          <div class="card">
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg></div>
+          </div>
+          <div class="foo">
+            <a href="#">Message</a>
+            <a href="#">E-mail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </div>
+  </div>
+</div>
+</body>
+
+
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+body{
+  margin: 0px;
+  padding: 0px;
+  justify-content: flex-end;
+  display: block;
+  position: relative;
+}
+
+.container{
+  width: 97%;
+  padding-left: 2%;
+}
+
+.bloco{
+  text-align: center;
+  float: left;
+  width: 96%;
+  height: 95%;
+  margin-left: 2%;
+
+}
+
+@media only screen and (min-width: 769px) {
+  .bloco{
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+
+}
+
+
+
+
+
+.content{
+  margin:10px;
+  width:300px;
+  height:400px;
+  background: #455A64;
+  backdrop-filter: blur( 1.9px );
+  border-radius: 10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+}
+
+figure{
+  max-width:100%;
+  display:block;
+  text-align:center;
+  padding:10px;
+
+
+}
+figure .im{
+  width: 80px;
+  height:80px;
+  border-radius:50%;
+  object-fit: cover;
+  object-position:center;
+
+
+}
+
+figure::before{
+  content:'';
+  width:20px;
+  height:20px;
+  border: 2px solid orangered;
+  border-radius:50%;
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+figure::after{
+  content:'';
+  width:20px;
+  height:20px;
+  border-radius:8px;
+  border: 2px solid orange;
+  position:absolute;
+  top:20px;
+  right:20px;
+}
+header{
+  width:100%;
+  text-align:center;
+}
+
+header h1{
+  padding:10px;
+  font-size:23px;
+  letter-spacing:0.1em;
+  font-weight:500;
+}
+header p{
+  font-size:16px;
+  padding:5px 10px;
+
+}
+
+.bootom{
+  width:100%;
+  height:auto;
+  padding:20px 10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.card{
+  display:flex;
+  gap:5px;
+}
+
+.card div{
+ width:30px;
+  height:30px;
+  background: #fff;
+  border-radius:50px;
+  display:flex;
+  justify-content:center;
+  margin:0;
+  padding:0;
+  align-items:center;
+}
+
+.foo{
+  display:flex;
+  gap: 10px;
+  width:100%;
+  padding:20px 0px;
+}
+.foo a:nth-child(2){
+  border:1px solid orangered;
+  background: none;
+  color: #000;
+}
+.foo a{
+  width: 100%;
+  border-radius:5px;
+  padding:7px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  background: #000;
+  font-size:14px;
+  border: 1px solid #000;
+}
+
+.card div svg{
+  width:20px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
+
+:root {
+  --bodybg: #dcdefe;
+  --primary-color: #5138ee;
+  --grey: #d6d6d6;
+  --placeholder: #969696;
+  --white: #fff;
+  --text: #333;
+  --slider-bg: #eff3ff;
+  --login-cta-hover: #1f0098;
+}
+
+
+.login-container {
+  display: flex;
+  max-width: 1200px;
+  background: var(--white);
+  margin: auto;
+  width: 100%;
+  min-width: 320px;
+}
+
+.login-container .logo svg {
+  height: 40px;
+  width: 40px;
+  fill: var(--primary-color);
+}
+
+.login-container .login-form {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.login-container .login-form .login-form-inner {
+  max-width: 380px;
+  width: 95%;
+}
+
+.login-container .login-form .google-login-button .google-icon svg {
+  height: 20px;
+  display: flex;
+  margin-right: 10px;
+}
+
+.login-container .login-form .google-login-button {
+  color: var(--text);
+  border: 1px solid var(--grey);
+  margin: 40px 0 20px;
+}
+
+.login-container .login-form .sign-in-seperator {
+  text-align: center;
+  color: var(--placeholder);
+  position: relative;
+  margin: 30px 0 20px;
+}
+
+.login-container .login-form .sign-in-seperator span {
+  background: var(--white);
+  z-index: 1;
+  position: relative;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.login-container .login-form .sign-in-seperator:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: var(--grey);
+  left: 0;
+  top: 50%;
+  z-index: 0;
+}
+
+.login-container .login-form .login-form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.login-container .login-form .login-form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.login-container .login-form .login-form-group input {
+  padding: 13px 20px;
+  box-sizing: border-box;
+  border: 1px solid var(--grey);
+  border-radius: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text);
+  transition: linear 0.2s;
+}
+
+.login-container .login-form .login-form-group input:focus {
+  outline: none;
+  border: 1px solid var(--primary-color);
+}
+
+.login-container
+  .login-form
+  .login-form-group
+  input::-webkit-input-placeholder {
+  color: var(--placeholder);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.login-container .login-form .login-form-group.single-row {
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+/* custom checkbox */
+.login-container .login-form .custom-check input[type="checkbox"] {
+  height: 23px;
+  width: 23px;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  appearance: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 3px;
+  background: var(--white);
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.login-container .login-form .custom-check input[type="checkbox"]:checked {
+  border: 2px solid var(--primary-color);
+  background: var(--primary-color);
+}
+
+.login-container
+  .login-form
+  .custom-check
+  input[type="checkbox"]:checked:before,
+.login-container
+  .login-form
+  .custom-check
+  input[type="checkbox"]:checked:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: var(--white);
+}
+
+.login-container
+  .login-form
+  .custom-check
+  input[type="checkbox"]:checked:before {
+  width: 8px;
+  top: 11px;
+  left: 2px;
+  transform: rotate(44deg);
+}
+
+.login-container
+  .login-form
+  .custom-check
+  input[type="checkbox"]:checked:after {
+  width: 14px;
+  top: 8px;
+  left: 5px;
+  transform: rotate(-55deg);
+}
+
+.login-container .login-form .custom-check input[type="checkbox"]:focus {
+  outline: none;
+}
+
+.login-container .login-form .custom-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container .login-form .custom-check label {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-container .login-form .link {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-container .login-form .link:hover {
+  text-decoration: underline;
+}
+
+.login-container .login-form .login-cta {
+  color: var(--white);
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  margin: 25px 0 35px;
+  background: var(--primary-color);
+}
+
+.login-container .login-form .login-cta:hover {
+  background: var(--login-cta-hover);
+}
+
+.login-container .onboarding {
+  flex: 1;
+  background: var(--slider-bg);
+  display: block;
+  width: 100%;
+}
+
+.login-container .login-form .login-form-group label .required-star {
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.login-container .rounded-button {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+  transition: linear 0.2s;
+}
+
+.login-container .rounded-button:hover {
+  box-shadow: 0px 0px 4px 0px var(--grey);
+}
+
+.login-container .body-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.login-container .onboarding .swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-container .onboarding .swiper-slide {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.login-container .onboarding .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+
+.login-container .onboarding .swiper-slide {
+  flex-direction: column;
+  display: flex;
+}
+
+.login-container .onboarding .swiper-slide .slide-image img {
+  width: 100%;
+  height: 80%;
+}
+.login-container .onboarding .slide-content {
+  width: 60%;
+}
+
+.login-container .onboarding .slide-content h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.login-container .onboarding .slide-content p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 30px;
+}
+
+.login-container .login-form .login-form-inner h1 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-container .onboarding {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .login-container {
+    height: 100vh;
+  }
+}
+
+@media screen and (width: 768px) {
+  .login-container .onboarding {
+    order: 0;
+  }
+  .login-container .login-form {
+    order: 1;
+  }
+  .login-container {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .login-container .login-form {
+    padding: 20px;
+  }
+  .login-container .login-form-group {
+    margin-bottom: 16px;
+  }
+  .login-container {
+    margin: 0;
+  }
+}
+
+-->

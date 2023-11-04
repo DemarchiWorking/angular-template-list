@@ -20,10 +20,11 @@ export class ServicoResolver implements Resolve<Servicos> {
   // dmrc3
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<Servicos> {
     if(route.params && route.params['id']){
+      console.log(this.service.carregarPorId(route.params['id']));
+      alert(route.params['id']);
       return this.service.carregarPorId(route.params['id']);
     }
-
-    return of({ _id:0,id_usuario: 0,titulo:'', categoria:'',
+    return of({ id:'',usuarioId: '',titulo:'', categoria:'',
     descricao:'', foto:'',criacao: new Date()});
 
   }

@@ -1,0 +1,116 @@
+.example-button-toggle-label {
+  display: inline-block;
+  margin: 16px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}
+
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+/* Desktop Styles */
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.section {
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.feature-0 {
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+}
+.menu {
+  background-color: #5995DA;
+  line-height: 80px
+}
+
+.hero {
+  background-color: #B2D6FF;
+}
+
+.feature-1,
+.feature-2,
+.feature-3 {
+  width: 50%;
+  display: inline-block;
+  height: 70px;
+}
+
+.sign-up {
+  background-color: #D6E9FE;
+  line-height: 100px;
+}
+
+.content {
+  background-color: #EAEDF0;
+  line-height: 600px;
+}
+
+.feature-1 {
+  background-color: #455A64;
+}
+
+.feature-2 {
+  background-color: gray;
+}
+
+.feature-3 {
+  background-color: #C8C6FA;
+}
+
+.comment {
+  color: #f4f4f4;
+  background-color: #333333;
+}
+
+/* Tablet Styles */
+@media only screen and (max-width: 960px) {
+  .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 50%;
+    height: 50px;
+  }
+
+  .sign-up {
+    display: inline-block;
+    line-height: 300px;
+    order: 1;
+  }
+
+  .comment,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    order: 2;
+  }
+}
